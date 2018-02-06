@@ -1,0 +1,15 @@
+{
+  "name": "postmandemo",
+  "version": "1.0.0",
+  "description": "Project for storing postman tests",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "api-test-production": "newwan run test/jsonplaceholder"
+  },
+  "author": "vishal",
+  "dependencies": {
+    "newman": "^3.9.3"
+  }
+}
