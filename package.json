@@ -6,7 +6,7 @@
     "test": "test"
   },
   "scripts": {
-    "api-test-production": "newwan run test/jsonplaceholder"
+    "api-test-production": "vishal1.postman_collection.json"
   },
   "author": "vishal",
   "dependencies": {
