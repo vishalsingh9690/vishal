@@ -6,7 +6,7 @@
     "test": "test"
   },
   "scripts": {
-    "api-test-production":  "newman run test/vishal1.postman_collection.json --reporters cli,html --reporter-html-export newman.html"
+    "api-test-production":  "newman run test/vishal1.postman_collection.json --reporters cli,junit,html --reporter-junit,html-export newman.xml,test.html"
   },
   "author": "vishal",
   "dependencies": {
